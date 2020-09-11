@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491897770637",
+    "firebase_url": "https://donorapp-85bc2.firebaseio.com",
+    "project_id": "donorapp-85bc2",
+    "storage_bucket": "donorapp-85bc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491897770637:android:fa7b7ec372e10e54be08c4",
+        "android_client_info": {
+          "package_name": "vicolas.donor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491897770637-0lp26mrpajuqpcol9bc6r4g0d1cm79tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vicolas.donor",
+            "certificate_hash": "97e175dc87fcf0db4f75cd0aed6f2392aa0aa3da"
+          }
+        },
+        {
+          "client_id": "491897770637-evlnm40t7gh75gg6onliqneke4kghn4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClfyR32siu9eHi_3VIr8tRIwid0grQCok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491897770637-evlnm40t7gh75gg6onliqneke4kghn4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

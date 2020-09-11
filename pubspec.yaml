@@ -1,0 +1,75 @@
+name: donorapp
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+module:
+  androidX: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  flutter_svg: ^0.18.0
+  animated_text_kit: ^2.2.0
+  firebase_auth: ^0.18.0+1
+  firebase_core: ^0.5.0
+  firebase_storage: ^4.0.0
+  cloud_firestore: ^0.14.0+2
+  modal_progress_hud: ^0.1.3
+  provider: ^4.3.1
+  simple_animations: ^2.2.1
+  font_awesome_flutter: ^8.8.1
+  carousel_slider: ^2.2.1
+  curved_navigation_bar: ^0.3.3
+  shared_preferences: ^0.5.10
+  image_cropper: ^1.3.0
+  image_picker: ^0.6.7+7
+  permission_handler: ^5.0.1+1
+  google_sign_in: ^4.5.3
+  cached_network_image: ^2.3.1
+  url_launcher: ^5.5.2
+  rxdart: ^0.24.1
+  toast: ^0.1.5
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - images/
+  - assets/
+
+  fonts:
+    - family: CormorantGaramond
+      fonts:
+        - asset: assets/fonts/CormorantGaramond-Bold.ttf
+        - asset: assets/fonts/CormorantGaramond-BoldItalic.ttf
+        - asset: assets/fonts/CormorantGaramond-Italic.ttf
+        - asset: assets/fonts/CormorantGaramond-Light.ttf
+        - asset: assets/fonts/CormorantGaramond-LightItalic.ttf
+        - asset: assets/fonts/CormorantGaramond-Medium.ttf
+        - asset: assets/fonts/CormorantGaramond-MediumItalic.ttf
+        - asset: assets/fonts/CormorantGaramond-Regular.ttf
+        - asset: assets/fonts/CormorantGaramond-SemiBold.ttf
+        - asset: assets/fonts/CormorantGaramond-SemiBoldItalic.ttf
+          style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
