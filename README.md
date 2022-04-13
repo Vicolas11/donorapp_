@@ -1,3 +1,3 @@
 # donorapp
 
-A Donor App for blood and organ.
+A Donor App for blood and organ using Flutter
